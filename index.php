@@ -63,6 +63,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="login.php">Patient Login</a></li>
+          <li><a class="nav-link scrollto" href="login.php">Patient Registration</a></li>
           <li><a class="nav-link scrollto" href="em_login.php">Employee Login</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
