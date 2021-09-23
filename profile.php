@@ -146,7 +146,7 @@ else{
                 <h6 class="mt-3 mb-2 text-primary">Online Payment</h6>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                
+
             </div>
 			
 			<!--<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
