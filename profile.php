@@ -146,6 +146,20 @@ else{
                 <h6 class="mt-3 mb-2 text-primary">Online Payment</h6>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <form method="post" action="pay.php">
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Enter Prescription ID</label>
+                        <input type="text" class="form-control" name="prescription_id" required >
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Amount</label>
+                        <input type="text" class="form-control" name="amount"  value="500" required >
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="exampleFormControlFile1">Amount</label> -->
+                        <input type="submit" class="btn btn-success" name="payment_submit"  value="Pay Online!" >
+                    </div>
+                </form>
 
             </div>
 			
