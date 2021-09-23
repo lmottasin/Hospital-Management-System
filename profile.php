@@ -62,6 +62,13 @@ else{
 				<p>I'm <?php echo $name; ?>. Patient of xyz Hospital.  Hospital Address: 
 				Badda Dhaka Bangladesh.  </p>
 			</div>
+            <div class="text-left">
+                <a href="index.php" class="btn btn-info">Home</a> <br> <br>
+                <a href="logout.php" class="btn btn-primary">Logout</a> <br> <br>
+                <a href="update.php" class="btn btn-success">Update</a><br> <br>
+                <a  id="delete_account" href="delete.php" class="btn btn-danger">Delete Account</a><br> <br>
+
+            </div>
 		</div>
 	</div>
 </div>
@@ -134,6 +141,13 @@ else{
 					<input type="text" style="font-weight: bold;" class="form-control" id="fullName" placeholder="<?php echo $id; ?>" disabled>
 				</div>
 			</div>
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <h6 class="mt-3 mb-2 text-primary">Online Payment</h6>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                
+            </div>
 			
 			<!--<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 				<div class="form-group">
@@ -144,16 +158,92 @@ else{
 			
 			
 		</div>
-		<div class="row gutters">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-				<div class="text-right">
-					<button  id="submit" onclick="logout()"  class="btn btn-primary">Logout</button>
-					<button  id="submit"  class="btn btn-warning">Update</button>
-					<button  id="submit" onclick="delete_account()" class="btn btn-danger">Delete Account</button>
-					
-				</div>
-			</div>
-		</div>
+        <div class="row gutters">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <h6 class="mt-3 mb-2 text-primary">Prescription History</h6>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+                <table class="table">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Payment ID</th>
+                        <th scope="col">PDF</th>
+                        <th scope="col">Issued Date</th>
+                        <th scope="col">Doctor Nanme</th>
+                        <th scope="col">Payment Status</th>
+
+                    </tr>
+                    </thead>
+                    <tbody >
+                    <?php
+                    $sql =" SELECT * FROM prescription WHERE patient_id = '$login_id' ORDER BY created_at DESC ";
+
+
+                    $data = $connection -> query($sql);
+
+                    //$i =1 ;
+
+
+
+                    while ( $values = $data->fetch_assoc()){
+
+                        //print_r($values);
+                        $payment_id = $values['id'];
+                        $pdf_link = $values['file_name'];
+                        $payment_status = $values['payment_status'];
+                        $issued_date = $values['created_at'];
+                        $doctor_id = $values['doctor_id'];
+                        //getting doctor name
+                        $sql =" SELECT employee.name FROM prescription,employee WHERE prescription.doctor_id='$doctor_id' LIMIT 1";
+
+
+                        $data2 = $connection -> query($sql);
+
+                        $val = $data2-> fetch_assoc();
+
+                        $doctor_name = $val['name'];
+
+                        ?>
+                        <tr
+                                class="<?php
+                                //cheching the payment status
+                                if ($payment_status=='NOT PAID' )
+                                {
+                                    echo 'table-danger';
+                                }
+                                else{
+                                    echo 'table-success' ;
+                                }
+                                ?> "
+                        >
+                            <td> <?php echo $payment_id; ?>  </td>
+                            <td><a  href="<?php
+                                //cheching the payment status
+                                if ($payment_status=='NOT PAID' )
+                                {
+                                    echo 'ask_to_pay.php';
+                                }
+                                else{
+                                    echo 'download.php?path=assets/prescription/'.$pdf_link ;
+                                }
+                                 ?> " >PDF</a></td>
+                            <td><?php echo $issued_date; ?></td>
+                            <td><?php echo $doctor_name; ?></td>
+                            <td><?php echo$payment_status; ?></td>
+                        </tr>
+
+                        <?php
+
+                    }
+                    ?>
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
 	</div>
 </div>
 </div>
@@ -228,27 +318,8 @@ body {
 </style>
 
 <script type="text/javascript">
-function logout(){
-	<?php 
-	session_destroy();
-	?>
-	location.assign('profile.php');
-}
-function delete_account(){
 
-		
-		<?php 
 
-		//$sql= "DELETE FROM patient_info WHERE id = '$id'";
-		//$connection -> query($sql);
-		//session_destroy();
-		
-		?>
-		location.assign('profile.php');
-	
-	
-	
-}
 </script>
 </body>
 </html>

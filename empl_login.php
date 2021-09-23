@@ -1,11 +1,9 @@
 <?php
-
-session_start();
-if (isset($_SESSION['profile_id']) )
-{
-    header('location:profile.php');
-}
-
+  session_start();
+  if (isset($_SESSION['employee_id']) )
+  {
+      header('location:empl_profile.php');
+  }
   if ( isset($_POST['login_form_submit']))
   {
     //print_r($_POST);
@@ -19,7 +17,7 @@ if (isset($_SESSION['profile_id']) )
 
         $connection =  new mysqli('localhost','root','','hms');
 
-        $sql ="SELECT * FROM patient_info WHERE phone_number='$phone_number' AND password='$password'";
+        $sql ="SELECT * FROM employee WHERE phone_number='$phone_number' AND password='$password'";
 
         $data = $connection -> query($sql); 
 
@@ -31,17 +29,17 @@ if (isset($_SESSION['profile_id']) )
 
             //session_start();
            
-            $_SESSION['profile_id'] = $values['id'];
+            $_SESSION['employee_id'] = $values['id'];
 
             //echo $_SESSION['profile_id'];
 
-            header("location:profile.php");
+            header("location:empl_profile.php");
         }
         else 
         {
             echo "<script type='text/javascript'>
                 alert('Wrong Phone Number or Password');
-                location.assign('login.php');
+                location.assign('empl_login.php');
             </script>";
             //header("location:login.php");
         }
@@ -62,14 +60,14 @@ if (isset($_SESSION['profile_id']) )
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Log In</title>
+        <title>Employee Log In</title>
     </head>
-    <body>
+    <body style="background-image: url('assets/img/medicine/undraw_medicine_b1ol.svg');">
         
         <div class="login">
             <div class="login__content">
                 <div class="login__img">
-                    <img src="assets/img/img-login.svg" alt="">
+                    <img src="assets/img/medicine/undraw_medicine_b1ol.svg" alt="">
                 </div>
 
                 <div class="login__forms">
@@ -86,14 +84,14 @@ if (isset($_SESSION['profile_id']) )
                             <input name="password" id="password" type="password" placeholder="Password" class="login__input" required>
                         </div>
 
-                        <a href="#" class="login__forgot">Forgot password?</a>
+                        <!--<a href="#" class="login__forgot">Forgot password?</a> -->
 
                         <!-- <a href="#" class="login__button">Sign In</a> -->
                         <input type="submit" style="color: white; background-color: purple; padding: 10px 45px;" name="login_form_submit" value="Log In">
 
                         <div>
-                            <span class="login__account">Don't have an Account ?</span>
-                            <a class="login__signin" id="sign-up" href="signup.php">Sign Up</a>
+                            <span class="login__account">Don't have an Account ? Contact Office !</span>
+                            <!--<a class="login__signin" id="sign-up" href="signup.php">Sign Up</a>-->
                         </div>
                     </form>
 
