@@ -72,7 +72,7 @@
 
                 <div class="login__forms">
                     <form action="" class="login__registre" id="login-in" method="POST">
-                        <h1 class="login__title">Sign In</h1>
+                        <h1 class="login__title">Doctor Sign In</h1>
                         <!-- Phone Number -->
                         <div class="login__box_2">
                             <i class='bx bx-user login__icon'></i>
@@ -90,8 +90,8 @@
                         <input type="submit" style="color: white; background-color: purple; padding: 10px 45px;" name="login_form_submit" value="Log In">
 
                         <div>
-                            <span class="login__account">Don't have an Account ? Contact Office !</span>
-                            <!--<a class="login__signin" id="sign-up" href="signup.php">Sign Up</a>-->
+                            <span class="login__account">Don't have an Account ? Contact Office !</span><br>
+                            <a class="login__signin" id="sign-up" href="index.php">Home</a>
                         </div>
                     </form>
 

@@ -63,8 +63,8 @@
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="login.php">Patient Login</a></li>
-          <li><a class="nav-link scrollto" href="login.php">Patient Registration</a></li>
-          <li><a class="nav-link scrollto" href="empl_login.php">Employee Login</a></li>
+          <li><a class="nav-link scrollto" href="signup.php">Patient Registration</a></li>
+          <li><a class="nav-link scrollto" href="empl_login.php">Doctor Login</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
@@ -116,8 +116,12 @@
             <div class="content">
               <h3>Why Choose Limon's Hospital?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                  As country’s leading multispecialty health care facilities,
+                  Lemon Hospitals has a well-earned reputation of being the pioneer of healthcare in Bangladesh.
+                  Limon Hospitals has touched millions of lives, providing the best care and treatment for simple to
+                  most complicated diseases and conditions to the community. Combining the best available technology,
+                  medical expertise and equipment, we are redefining healthcare excellence to ensure all our patients
+                  receive comprehensive and integrated service with utmost compassion, support and care.
               </p>
               <div class="text-center">
                 <!-- <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
@@ -130,22 +134,44 @@
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h4>Emergency 24 X 7</h4>
+                    <p>As pioneers of Emergency care in Bangladesh, Limon Hospitals 24 hours Emergency Care guarantees you the highest levels
+                        of skill, expertise and infrastructure. Our protocols are designed to respond quicker, and have proven outcomes that
+                        are on par with the very best in the world. We actively leverage our multi-specialty prowess to deliver the crucial
+                        edge in emergency care.At an Limon Emergency Room, there is always easy and swift access to super specialist surgeons
+                        and cutting edge procedures</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    <h4>Accident and emergency (A&E)</h4>
+                    <p>Also called Casualty Department, where patient are likely to be taken if they have arrived in an ambulance or emergency
+                        situation.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    <h4>Others</h4>
+
+                      <pre>
+1.24hrs Emergency
+2.24hrs Orthopedics
+3.24hrs Vascular Surgery
+4.Physiotherapy
+5.Echo Cardiogram
+6.Colour Dopler
+7.ECG
+8.Digital X-Ray
+9.Ultrasonography
+10.24hrs Ambulance
+11.24hrs Lift
+12.Post Operative Ward
+13.AC/Non-Ac Cabin
+14.Digital Lab
+15.24hrs Pharmacy
+                      </pre>
                   </div>
                 </div>
               </div>
@@ -166,25 +192,31 @@
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+              <!--
             <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
             <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
-
+-->
             <div class="icon-box">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href=""></a></h4>
+              <p class="description">The Limon hospital’s location is safe and convenient for most of the people of the city.
+                  The hospital is accessible by public transportation. The hospital have convenient and inexpensive parking.t</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 class="title"><a href=""></a></h4>
+              <p class="description">Limon hospital's information system comes with logins. Every employee who needs to work on information system
+                  is given an individual login with access controls. Every task happens through logins, only.
+                  information system gives the kind of accountability that manual processes never manage to give</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <h4 class="title"><a href=""></a></h4>
+              <p class="description">Less time consuming
+                  As the services and interactions are improved in all possible ways, everything is being planned with
+                  greater precision. It saves the time of all the system users and provides them with up-to-date information.</p>
             </div>
 
           </div>
@@ -242,34 +274,38 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-heartbeat"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href=""></a></h4>
+              <p>500+ healing hand
+                  Largest network of the world’s finest and brightest medical experts who provide compassionate care using outstanding
+                  expertise and advanced technology</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-pills"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href=""></a></h4>
+              <p>Most advances healthcare technology
+                  limon Hospitals has been the pioneer in bringing ground-breaking healthcare technologies to bangladesh.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-hospital-user"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">s</a></h4>
+              <p>Best clinical outcomes
+                  Leveraging its vast medical expertise & technological advantage, limon Hospitals has consistently delivered best
+                  in class clinical outcomes.</p>
             </div>
           </div>
-
+<!--
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-dna"></i></div>
@@ -292,7 +328,7 @@
               <h4><a href="">Divera don</a></h4>
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -375,26 +411,19 @@
 
         <div class="section-title">
           <h2>Departments</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Orthopedics</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
+
               </li>
             </ul>
           </div>
@@ -403,9 +432,11 @@
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Cardiology</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <h3>Orthopedics</h3>
+
+                  <p>The Limon Institutes of Orthopedics enjoy the reputation of being one of the pioneering bone and joint centres in the
+                      country with a legacy of innovation and excellence. The Institutes are at the forefront in offering the latest in
+                      Orthopedic treatments and Orthopedic surgical advancements on par with the best centres in the world.</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
@@ -415,15 +446,16 @@
               <div class="tab-pane" id="tab-2">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
+                    <h3>Neurology</h3>
+<p>The Limon Institutes of Neurology and Neurosurgery uphold the lofty ideal of reaching the best of neuro healthcare to
+    every individual.The Institutes of Neurology treat all the neurological diseases including stroke, headache, epilepsy,
+    coma, neuropathies, multiple sclerosis, myopathies, Parkinson’s disease, Myasthenia Gravis and many more.</p>                  </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
+                <!--
               <div class="tab-pane" id="tab-3">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
@@ -459,7 +491,7 @@
                     <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
@@ -473,7 +505,6 @@
 
         <div class="section-title">
           <h2>Doctors</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
@@ -484,7 +515,6 @@
               <div class="member-info">
                 <h4>Walter White</h4>
                 <span>Chief Medical Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -501,7 +531,6 @@
               <div class="member-info">
                 <h4>Sarah Jhonson</h4>
                 <span>Anesthesiologist</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -518,7 +547,6 @@
               <div class="member-info">
                 <h4>William Anderson</h4>
                 <span>Cardiology</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -535,7 +563,6 @@
               <div class="member-info">
                 <h4>Amanda Jepson</h4>
                 <span>Neurosurgeon</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -634,8 +661,12 @@
                   <h4>Ceo &amp; Founder</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      My general experience about Limon Hospital was amazing, considering the fact that i came alone from Barisal.
+                      Every member of staff from reception, admission, nurses, doctors, catering and other departments i met were excellent.
+                      Thank you for looking after me. The hospital is well organized and treats patients with dignity and respect.
+                      The staff is warm and caring. It counts so much when you are worried and not well. I would recommend this to all those
+                      in need of treatment.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
@@ -649,8 +680,11 @@
                   <h4>Designer</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      I like the hospital very much, the staff is very good. They always corporate with us,
+                      they give nice services to my patient. I will recommend other patient to come here and take treatment in
+                      Limon Hospital. Doctors are very good. Special thanks to Swapna for helping us lot.
+                      Thank you Dr.******* for treat me very nice.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
@@ -664,8 +698,9 @@
                   <h4>Store Owner</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      During our stay in hospital, we find good and excellent treatment from all the employees.
+                      They really helpful in all areas of the treatment. Thanks to everyone at Limon Hospital.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
@@ -679,13 +714,15 @@
                   <h4>Freelancer</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      Limon hospital provided me with excellent and prompt service. The nurses are very attentive and there
+                      are always enough meals and service for the patients.
+                      I would recommend this hospital to any foreigners staying in Dhaka.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
-
+<!--
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -699,7 +736,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item -->  -->
 
           </div>
           <div class="swiper-pagination"></div>
@@ -714,7 +751,6 @@
 
         <div class="section-title">
           <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
       </div>
 
@@ -796,7 +832,6 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
       </div>
 

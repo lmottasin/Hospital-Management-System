@@ -61,7 +61,7 @@
 
                 <div class="login__forms">
                     <form action="" class="login__registre" id="login-in" method="POST">
-                        <h1 class="login__title">Sign Up</h1>
+                        <h1 class="login__title">Patient Registration</h1>
 
                         <!-- Patient Name -->
                         <div class="login__box">
@@ -103,7 +103,8 @@
                         <div>
                             <span class="login__account">Have an Account ?</span>
                             <!-- <span class="login__signin" id="sign-up">Sign Up</span> -->
-                            <a href="login.php" class="login__signin" id="sign-up">Sign In</a>
+                            <a href="login.php" class="login__signin" id="sign-up">Sign In</a><br>
+                            <a href="index.php" class="login__signin" id="sign-up">Home</a>
                         </div>
                     </form>
 

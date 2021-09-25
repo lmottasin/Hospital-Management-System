@@ -62,7 +62,7 @@ if (isset($_SESSION['profile_id']) )
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Log In</title>
+        <title>Patient Log In</title>
     </head>
     <body>
         
@@ -74,7 +74,7 @@ if (isset($_SESSION['profile_id']) )
 
                 <div class="login__forms">
                     <form action="" class="login__registre" id="login-in" method="POST">
-                        <h1 class="login__title">Sign In</h1>
+                        <h1 class="login__title">Patient Sign In</h1>
                         <!-- Phone Number -->
                         <div class="login__box_2">
                             <i class='bx bx-user login__icon'></i>
@@ -93,7 +93,8 @@ if (isset($_SESSION['profile_id']) )
 
                         <div>
                             <span class="login__account">Don't have an Account ?</span>
-                            <a class="login__signin" id="sign-up" href="signup.php">Sign Up</a>
+                            <a class="login__signin" id="sign-up" href="signup.php">Sign Up</a><br>
+                            <a href="index.php" class="login__signin" id="sign-up">Home</a>
                         </div>
                     </form>
 

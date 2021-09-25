@@ -181,7 +181,7 @@ else{
                 <table class="table">
                     <thead class="thead-dark">
                     <tr>
-                        <th scope="col">Payment ID</th>
+                        <th scope="col">Prescription ID</th>
                         <th scope="col">PDF</th>
                         <th scope="col">Issued Date</th>
                         <th scope="col">Doctor Nanme</th>
