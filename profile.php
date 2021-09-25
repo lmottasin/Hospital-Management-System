@@ -184,7 +184,7 @@ else{
                         <th scope="col">Prescription ID</th>
                         <th scope="col">PDF</th>
                         <th scope="col">Issued Date</th>
-                        <th scope="col">Doctor Nanme</th>
+                        <th scope="col">Doctor Name</th>
                         <th scope="col">Payment Status</th>
 
                     </tr>
