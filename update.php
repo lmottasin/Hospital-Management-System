@@ -15,6 +15,7 @@ if ( isset($_SESSION['profile_id']))
 
     $data = $connection -> query($sql);
 
+
     $values = $data->fetch_assoc();
 
     $name = $values['patient_name'];

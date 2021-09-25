@@ -23,6 +23,15 @@ if ( isset($_SESSION['profile_id']))
 	$age = $values['age'];
 	$blood_group = $values['blood_group'];
 	$password = $values['password'];
+    $accoutn_status = $values['status'];
+
+    if( $accoutn_status =='inactive')
+    {
+        //echo 'ashce '.$accoutn_status;
+        header('location:logout.php');
+
+    }
+
 	
 
 }
@@ -66,7 +75,7 @@ else{
                 <a href="index.php" class="btn btn-info">Home</a> <br> <br>
                 <a href="logout.php" class="btn btn-primary">Logout</a> <br> <br>
                 <a href="update.php" class="btn btn-success">Update</a><br> <br>
-                <a  id="delete_account" href="delete.php" class="btn btn-danger">Delete Account</a><br> <br>
+                <a   href="delete.php" class="btn btn-danger">Delete Account</a><br> <br>
 
             </div>
 		</div>
