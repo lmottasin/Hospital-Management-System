@@ -46,7 +46,7 @@ if ( isset($_SESSION['profile_id']))
                 date_default_timezone_set('Asia/Dhaka');
                 $dt = date('Y-m-d h:i:s');
 
-                $sql ="UPDATE patient_info SET phone_number = '$phone_number' ,address= '$address', age ='$age',
+                $sql ="UPDATE patient_info SET patient_name='$name', phone_number = '$phone_number' ,address= '$address', age ='$age',
                 blood_group ='$blood_group', password='$password', updated_at='$dt'    WHERE  id ='$login_id'";
 
                 //echo $sql;
