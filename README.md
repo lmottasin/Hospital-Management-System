@@ -1,24 +1,36 @@
 # Hospital-Management-System
-A Hospital Management System for digitalized the doctor patient relation  with real Payment Gateway form SSL Commerce. 
+
 ---
 <div id="top"></div>
 
 
 <!-- PROJECT LOGO -->
+## Reallife SSL Commerce Payment Gateway (Developper Account Api)
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="assets/project.gif" alt="Logo" width="80%" height="80%">
+  
+  <a href="https://github.com/lmottasin/Hospital-Management-System">
+    <img src="readme_img/pay.gif" alt="Logo" width="80%" height="80%">
   </a>
+</div>
 
-  <h3 align="center">Meal Management System </h3>
-
+## Project Gimplse
+<br />
+<div align="center">
+  
+  <a href="https://github.com/lmottasin/Hospital-Management-System">
+    <img src="readme_img/profile plus doctor.gif" alt="Logo" width="80%" height="80%">
+  </a>
+    <a href="https://github.com/lmottasin/Hospital-Management-System">
+    <img src="readme_img/homepage.gif" alt="Logo" width="80%" height="80%">
+  </a>
+</div>
 
 
 <!-- ABOUT THE PROJECT-->
 ## About The Project
+A Hospital Management System for digitalized the doctor patient relation  with real Payment Gateway form SSL Commerce. 
 
-This is a GUI based project to manage a typical hostel in Dhaka city. Where students live together and manages everything. This is a small project to maintain their accounts for the hostel.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -26,23 +38,27 @@ This is a GUI based project to manage a typical hostel in Dhaka city. Where stud
 
 ---
 ## Features: 
-  * Show All inforamtion to all. 
-  * Authentication for admin.
-  * Add daily number of meals.
-  * Add missing date meals.
-  * Add / Delete grocery total amount
-  * Show total meal of each member, meal rate,
-  * Clean all Data. 
-  * Dashboard. 
-  * The amount of money need to pay end of the month.
+### Payment Gateway API:
+* Make payment with SSL Commerce Gateway with prescriptin id 
+* Local DB update with api
+* Success page
+### Users: 
+* Profile (CRUD, Logout)
+* Login, Registration
+* Downlaod Prescripton with payment
+* Prescription History
+### Doctor:
+* Profile (Login, Logout)
+* Presctipn Uplaod
+* Uploaded prescription info
   
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ---
 ## Built With
-* Java Swing.
-* Java GUI.
-* Neatbeans.
+* Front-end: HTML, CSS, JS, BOOTSTRAP
+* Back-end: PHP, MySql
+* API: SLL Commerce Developpers Account
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
